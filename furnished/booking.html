@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+
+<style>
+
+    .hero {
+    background-image: url('https://static.wixstatic.com/media/3e7c661d7e5d428180d47541d8827c81.jpg');
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+    }
+    nav li {
+    display: inline;
+    margin: 0 10px;
+    }
+    .white-link {
+        color: white;
+    }
+
+
+    .padded-container {
+        padding: 20px; /* Adjust the value as needed for your desired padding */
+        background-color: #fff; /* Optional: Adding a background color for better visualization */
+    }
+
+    .contact-form {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+
+            border-radius: 10px;
+            
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-group select {
+            padding: 10px;
+        }
+        .submit-button {
+            background-color: #ccc;
+            color: #333;
+            font-weight: bold;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+
+</style>
+
+<body>
+
+    <header>
+        <section class="hero">
+            <h1>Book With Us</h1>
+            <nav>
+                <ul>
+                    <li><a class="white-link" href="index.html">Home</a></li>
+                    <li><a class="white-link" href="services.html">Services</a></li>
+                    <li><a class="white-link" href="booking.html">Book Online</a></li>
+                </ul>
+            </nav>
+        </section>
+       
+    </header>
+
+    <div class="padded-container"></div>
+
+   
+    <div class="contact-form">
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="style">Style:</label>
+                <select id="style" name="style">
+                    <option value="minimalistic">Minimalistic</option>
+                    <option value="mid-century-modern">Mid Century Modern</option>
+                    <option value="mediterranean">Mediterranean</option>
+                    <option value="coastal">Coastal</option>
+                    <option value="rustic">Rustic</option>
+                    <option value="vintage">Vintage</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="service">Service:</label>
+                <select id="service" name="service">
+                    <option value="studio">Studio</option>
+                    <option value="room">1 Room</option>
+                    <option value="apartment">2 Room Apartment</option>
+                    <option value="house">3 Room House</option>
+                </select>
+            </div>
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </div>
+
+    <div class="padded-container"></div>    <div class="padded-container"></div>    <div class="padded-container"></div>
+
+    <section class="container text-center">
+        <h2>Contact Us</h2>
+        <h6>contactus@furnishedhaven.com</h6>
+        <h6>(213) 888-1259</h6>
+    </section>
+
+    <footer class="text-center">
+        <p>&copy; 2023 Furnished Haven. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooms</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+
+            .padded-container {
+        padding: 40px; /* Adjust the value as needed for your desired padding */
+        background-color: #fff; /* Optional: Adding a background color for better visualization */
+    }   
+
+        .hero {
+            background-image: url('https://static.wixstatic.com/media/3e7c661d7e5d428180d47541d8827c81.jpg');
+            color: #fff;
+            text-align: center;
+            padding: 100px;
+            }
+        nav li {
+            display: inline;
+            margin: 0 10px;
+        }
+        .white-link {
+            color: white;
+        }
+        .room-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .room {
+            flex: 0 0 45%;
+            margin: 20px;
+            text-align: center;
+        }
+        .room img {
+            max-width: 100%;
+            height: auto;
+        }
+        .room-title {
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: large;
+        }
+        .book-button {
+            margin-top: 10px;
+            background-color: #ccc;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #333;
+            border-radius: 5px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+     <!--  "https://static.wixstatic.com/media/3e7c661d7e5d428180d47541d8827c81.jpg"
+        "https://static.wixstatic.com/media/94aa70cd24da49faab2326ef2e5e6703.jpg"
+        "https://static.wixstatic.com/media/53c2dd0221674b2b83d411c09fa2419b.jpg"
+        "https://static.wixstatic.com/media/3d9c20548930481db414fdf4ea63328c.jpeg"
+        "https://static.wixstatic.com/media/c17f4f826ddd48a39db6722d13ab442a.jpg"
+        "https://static.wixstatic.com/media/23deb06c0f1a4abe98c92557d71448cc.jpg"
+        "https://static.wixstatic.com/media/6592096654884c7095edaee29e54dfcb.jpg"
+    
+    
+    -->
+
+    <header>
+        <section class="hero">
+            <h1>Our Services</h1>
+            <nav>
+                <ul>
+                    <li><a class="white-link" href="index.html">Home</a></li>
+                    <li><a class="white-link" href="services.html">Services</a></li>
+                    <li><a class="white-link" href="booking.html">Book Online</a></li>
+                </ul>
+            </nav>
+        </section>
+       
+    </header>
+
+    <div class="padded-container"></div>
+
+    <div class="room-container">
+        <div class="room">
+            <img src="https://static.wixstatic.com/media/6592096654884c7095edaee29e54dfcb.jpg" alt="Studio">
+            <div class="room-title">Studio</div>
+            <a class="book-button" href="booking.html" class="book-button">Book Now</a>
+        </div>
+        <div class="room">
+            <img src="https://static.wixstatic.com/media/53c2dd0221674b2b83d411c09fa2419b.jpg" alt="1 Room">
+            <div class="room-title">1 Room</div>
+            <a class="book-button" href="booking.html" class="book-button">Book Now</a>
+        </div>
+    </div>
+    <div class="room-container">
+        <div class="room">
+            <img src="https://static.wixstatic.com/media/94aa70cd24da49faab2326ef2e5e6703.jpg" alt="2 Room Apartment">
+            <div class="room-title">2 Room Apartment</div>
+            <a class="book-button" href="booking.html" class="book-button">Book Now</a>
+        </div>
+        <div class="room">
+            <img src="https://static.wixstatic.com/media/3e7c661d7e5d428180d47541d8827c81.jpg" alt="3 Room House">
+            <div class="room-title">3 Room House</div>
+            <a class="book-button" href="booking.html" class="book-button">Book Now</a>
+        </div>
+    </div>
+
+    <div class="padded-container"></div>   
+
+    <section class="container text-center">
+        <h2>Contact Us</h2>
+        <h6>contactus@furnishedhaven.com</h6>
+        <h6>(213) 888-1259</h6>
+    </section>
+
+    <footer class="text-center">
+        <p>&copy; 2023 Furnished Haven. All Rights Reserved.</p>
+    </footer>
+    
+</body>
+</html>
