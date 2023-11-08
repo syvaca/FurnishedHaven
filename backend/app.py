@@ -47,7 +47,7 @@ def submit_booking():
 
                 try:
                     cursor = conn.cursor()
-                    query = ("INSERT INTO bookings (name, email, style, service)" # booking should maybe be called FurnishedHaven , idk
+                    query = ("INSERT INTO entries (name, email, style, service)" # booking should maybe be called FurnishedHaven , idk
                     "VALUES (%s, %s, %s, %s)")
                     values = (name, email, style, service)
             
